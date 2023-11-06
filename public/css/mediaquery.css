@@ -1,0 +1,160 @@
+
+@media (max-width: 900px){
+
+    /* nav */
+    .topnav{
+        background-color: white;
+        display: flex;
+        align-items:unset;
+        justify-content: space-between;
+      position: relative;
+        
+    }
+    .topul{
+        display: none;
+        align-items: unset;
+      gap: 20px;
+      flex-direction: column;
+      background-color: white;
+      position: absolute;
+      left: 40%;
+      right: 0;
+      top: 30px;
+      z-index: 99;
+      border-radius: 8px;
+    }
+    .topulmobileopen{
+        display: flex;
+    }
+    .closnav-btn {
+        display: block;
+    }
+
+.top-policies-div{
+    display: none;
+}
+    /* the end of nav */
+    .category-and-main-div{
+        position: relative;
+       
+    }
+    .categorys-icon-div{
+        width: fit-content;
+    }
+    .sidebar{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+    }
+    .category-items{
+        display: none;
+    }
+    .category-items-opend{
+        display: block;
+    }
+
+    .best-salers-items-div{
+        flex-direction: column;
+    }
+
+    .category-and-main{
+        height: max-content;
+    }
+   .shopping-guid-promo-div{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: fit-content;
+   margin: 0px auto;
+   }
+    .best-salers-div{
+        width: 90vw !important;
+      flex-basis: 100%;
+    }
+ 
+    .searchbarul{
+        position: relative;
+    }
+    .searchitem{
+        display: block !important;
+    }
+    .searchbardiv{
+        position: absolute;
+        top: 10px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0px 10px;
+         background-color: white; 
+         z-index: 999;
+         display: none;
+    }
+    .searchbar-form{
+        display: flex;
+    }
+    .open-searchformbtn{
+        display: block;
+        cursor: pointer;
+    }
+  
+}
+
+
+
+
+/* For screens 768px and below */
+@media (max-width: 768px) {
+    .shopping-guid-promo-first{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .shopping-promo-img a img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .shopping-promo-two-img{
+        width: 100% !important;
+    }
+    .shopping-promo-two-img a img{
+        width: 100%;
+        height: 150px !important;
+        object-fit: cover;
+    }
+    .first-best-saler-right-item{
+        flex-direction: column;
+    }
+    .welcometo-chika h1{
+        text-align: center;
+    }
+    .weekly-sales{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        padding: 0px 2px;
+        
+    }
+    .weekly-products-item{
+        max-width: 150px;
+        padding: unset;
+        /* width: 100px;
+        padding: 1px;
+        border-radius: 8px;
+        position: relative;
+        height: 300px;
+        border: 2px solid white;
+        transition: border 1s ease-in-out; */
+    }
+    .mobile-cate{
+        display: block;
+    }
+    .categorys-icon-div{
+        display: none;
+    }
+    }
+
+    @media (min-width: 600px) {
+        /* .cards { grid-template-columns: repeat(2, 1fr); } */
+        /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+      }
+      
