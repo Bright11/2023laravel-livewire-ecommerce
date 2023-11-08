@@ -21,7 +21,7 @@ class PostController extends Controller
 
     public function regisetrpage(){
         // return view('register.users');
-        return view('frontend.index');
+        return view('register.users');
     }
 
     public function register(Request $req){
@@ -33,6 +33,11 @@ class PostController extends Controller
         ]);
         $product=$this->addproductService->addproduct($req);
         if($product)return redirect()->back();
+    }
+
+
+    public function index(){
+        return view("frontend.index");
     }
 
 }

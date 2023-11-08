@@ -7,7 +7,7 @@
     <input type="email" name="email" placeholder="email">
     <input type="password" name="password" placeholder="password">
     <button>Save</button>
-    <p onclick="login()">Already have an account? Login</p>
+    <p onclick="login()">Don't have an account? Register</p>
 </form>
 
 @endsection
