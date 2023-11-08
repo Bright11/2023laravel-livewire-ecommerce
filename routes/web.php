@@ -22,4 +22,4 @@ Route::get('',[PostController::class,'index'])->name("index");
 
 
 Route::get('register',[PostController::class,'regisetrpage'])->name("regisetrpage");
-Route::post('',[PostController::class,'register'])->name("register");
+// Route::post('',[PostController::class,'register'])->name("register");

@@ -28,3 +28,15 @@ const openavmobile=document.querySelector(".topul")
 function opennavemobilebtn(){
     openavmobile.classList.toggle("topulmobileopen")
 }
+
+// login
+function login(){
+    const registerform=document.querySelector(".register")
+    const loginform=document.querySelector(".loginform")
+   registerform.classList.toggle("jsopenrgister")
+   loginform.classList.toggle("jsloginopen")
+
+}
+
+
+

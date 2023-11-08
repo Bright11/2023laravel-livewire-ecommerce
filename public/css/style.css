@@ -569,6 +569,20 @@ a{
     cursor: pointer;
     color: white;
 }
+.registerform .noaccount{
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+}
+.jsloginopen{
+    display: block !important;
+}
+.loginform{
+    display: none;
+}
+.jsopenrgister{
+    display: none !important;
+}
 
 
 

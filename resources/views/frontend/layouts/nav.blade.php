@@ -29,7 +29,7 @@
                     <ul class="accountdropdwonul">
                       <div class="accountdiv">
                         <div class="register-accountdiv">
-                            <li class="accountli regisgterli"><a href="{{ route("regisetrpage") }}">Register</a></li>
+                            <li class="accountli regisgterli"><a wire:navigate href="{{ route("regisetrpage") }}">Register</a></li>
                             <li class="accountli loginli"><a href="">Login</a></li>
                         </div>
                         <li class="topli"><a href="">My Order</a></li>
@@ -55,7 +55,7 @@
     <section class="searcnbar-seaction">
         <ul class="searchbarul">
             <li class="logo">
-                <a href="/">
+                <a href="/" wire:navigate>
                     AliExpress
                 </a>
             </li>
