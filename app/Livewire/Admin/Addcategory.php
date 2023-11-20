@@ -14,6 +14,7 @@ class Addcategory extends Component
     public $catid;
     public function render()
     {
+
         return view('livewire.admin.addcategory');
     }
 

@@ -98,3 +98,7 @@
 .openproform{
     display: none !important;
 }
+.adminimg-table{
+    width: 50px;
+    object-fit: cover;
+}

@@ -360,6 +360,8 @@ a{
 
 .shopping-promo-img img{
     width: 200px;
+    height: 140px;
+    object-fit: cover;
 }
 
 .discount-best-saler{
@@ -452,6 +454,7 @@ a{
 
 .items-right-image-div img{
     width: 90px;
+    height: 70px;
     border-radius: 8px;
 }
 .items-right-image-div{
