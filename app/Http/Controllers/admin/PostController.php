@@ -21,4 +21,12 @@ class PostController extends Controller
         return view("frontend.index");
     }
 
+    public function dashboard(){
+        return view("admin.home");
+    }
+    public function addcategory(){
+        return view('admin.addcategory');
+
+    }
+
 }

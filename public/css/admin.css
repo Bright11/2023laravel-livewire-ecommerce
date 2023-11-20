@@ -1,0 +1,100 @@
+@import url(colors.css);
+.admin-container{
+    width: 80vw;
+    margin: 30px auto;
+}
+
+
+.admintopbar-div{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+.admin-topbar{
+    box-shadow: 0px 7px 30px -20px;
+    background-color: white;
+    width: 200px;
+    height: 150px;
+}
+.admin-topbar h1{
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.adminlayouts{
+    display: flex;
+    gap: 20px;
+}
+.admin-item-img{
+    width: 150px;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.admin-item-img img{
+    width: 150px !important;
+    object-fit: cover;
+    height: 180px !important;
+}
+.admin-item-info h1,.admin-item-info h2,.admin-item-info h3{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+}
+.admin-item-info button{
+    border: 0;
+    background-color: var(--primary-color);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 300;
+}
+.adminproducts{
+    flex-basis: 70%;
+}
+.add-product{
+    flex-basis: 30%;
+}
+.add-product form{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 7px 30px -20px;
+    padding: 8px;
+}
+.add-product form input,select{
+    padding: 10px;
+    margin-top: 20px;
+    outline: none;
+}
+.add-product form button{
+    padding: 7px;
+    margin-top: 20px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+    border: none;
+}
+.add-product form h1{
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0px auto;
+}
+/*  */
+.addcat{
+    display: none !important;
+}
+.opencatform{
+    display: flex !important;
+}
+.openproform{
+    display: none !important;
+}

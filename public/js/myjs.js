@@ -37,6 +37,13 @@ function login(){
    loginform.classList.toggle("jsloginopen")
 
 }
+const addcat=document.querySelector(".addcat")
+const addpro=document.querySelector(".addpro")
 
+function additem(){
+    addcat.classList.toggle("opencatform")
+    addpro.classList.toggle("openproform")
+
+}
 
 
