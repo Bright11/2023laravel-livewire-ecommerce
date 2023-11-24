@@ -1,15 +1,13 @@
 @extends('frontend.layouts.header')
-
+@push('style')
+    <link rel="stylesheet" href="{{ asset('css/boostrap.css') }}">
+@endpush
    @section('content')
-        <!-- category section -->
- @include('frontend.layouts.category')
- <!-- the end of category section -->
-
 
  <!-- weekly sales -->
 
  <section class="weekly-section">
-    <livewire:product.product/>
+    <livewire:cart.addtocat/>
 
 
  <!-- the end of weekly sales -->

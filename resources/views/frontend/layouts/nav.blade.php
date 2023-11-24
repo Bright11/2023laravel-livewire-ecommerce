@@ -92,8 +92,10 @@
 
         </div>
         <button onclick="opensearchform()" class="open-searchformbtn"><i class="fa-solid fa-magnifying-glass open--icon"></i></button>
-        <li class="shopping-cart-li"><a href=""><i class="fa-solid fa-cart-shopping shopping-icon"></i>
-            <span class="count-span">90</span>
+        <li class="shopping-cart-li"><a href="{{ route('cartpage') }}"wire.navigate><i class="fa-solid fa-cart-shopping shopping-icon"></i>
+
+            <livewire:cart.countcart/>
+
         </a>
 
         </li>

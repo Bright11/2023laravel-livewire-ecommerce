@@ -57,7 +57,7 @@ class AdProduct extends Component
     }
     public function resetdata(){
         $this->reset([
-            'name','price','qty','description','image','discount'
+            'name','price','qty','description','image','discount','cat_id'
         ]);
     }
 

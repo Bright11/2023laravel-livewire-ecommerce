@@ -3,6 +3,9 @@
 namespace App\Http\Controllers\admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Category;
+use App\Models\Product;
+use Illuminate\Support\Facades\Auth;
 
 // use Illuminate\Support\Facades\Request as FacadesRequest;
 
@@ -16,8 +19,10 @@ class PostController extends Controller
     }
 
 
-
     public function index(){
+       // $procat=Category::all();
+
+
         return view("frontend.index");
     }
 
@@ -26,7 +31,11 @@ class PostController extends Controller
     }
     public function addcategory(){
         return view('admin.addcategory');
+    }
 
+    public function cartpage(){
+        if(!Auth::user())return redirect()->route('regisetrpage');
+        return view('frontend.cartpage');
     }
 
 }

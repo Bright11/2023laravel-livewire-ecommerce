@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('',[PostController::class,'index'])->name("index");
-
+Route::get('cartpage',[PostController::class,'cartpage'])->name("cartpage");
 
 Route::get('regisetrpage',[PostController::class,'regisetrpage'])->name("regisetrpage");
  Route::post('login',[LoginController::class,'login'])->name("login");

@@ -516,8 +516,12 @@ a{
     align-items: center;
     flex-direction: column;
 }
-.addto-cart a{
+.addto-cart button{
     color: white;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
 
 }
 .items-category-name{
